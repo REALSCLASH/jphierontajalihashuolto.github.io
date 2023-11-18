@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./src/**/*.{html,js}",
+  ],
   theme: {
     extend: {
       colors: {
-        body: '#FFEFFC',
+        body: '',
         theme: '#DECBB7',
-        nc: '#2d2926',
+        nc: '#2f2a27',
+        harmaa: '#333333',
        
       },
       fontFamily: {
@@ -14,5 +17,6 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+],
 }
