@@ -13,7 +13,8 @@ module.exports = {
        
       },
       fontFamily: {
-        'noto': ['Noto Sans', 'sans-serif']
+        'noto': ['Noto Sans', 'sans-serif'],
+        'libre': ['Red Hat Display', 'sans-serif']
       }
     },
   },
